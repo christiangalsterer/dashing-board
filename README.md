@@ -11,3 +11,4 @@ Update the settings for `folder` and `url` in the [config/default.json](config/d
 In order to start the application run `node start`
 
 # License
+The application is provided unter the Apache License, Version 2.0. You may obtain a copy of the License at (http://www.apache.org/licenses/LICENSE-2.0)
