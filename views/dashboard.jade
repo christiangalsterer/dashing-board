@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  each val in dashboards
+    div(class="dashboard")
+      a(href='#{val.url}') #{val.name}
+  
