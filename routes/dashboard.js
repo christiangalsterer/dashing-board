@@ -18,7 +18,7 @@ function dashboards() {
 }
 
 router.get('/', function(req, res) {
-  res.render('dashboard', { title: 'Dashboards', dashboards: dashboards()});
+  res.render('dashboard', { title: config.get('title'), dashboards: dashboards()});
 });
 
 module.exports = router;

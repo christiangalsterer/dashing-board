@@ -1,8 +1,42 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
+.header {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 800px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  font: normal 20px/1 "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgb(0,0,0);
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.dashboard {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0 0 0;
+  overflow: hidden;
+  font: normal 14px/1 "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.dashboard a {
   color: #00B7FF;
 }

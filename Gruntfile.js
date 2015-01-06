@@ -56,7 +56,9 @@ module.exports = function (grunt) {
   grunt.config.requires('watch.server.files');
   files = grunt.config('watch.server.files');
   files = grunt.file.expand(files);
-
+  
+  grunt.loadNpmTasks('grunt-nice-package');
+  
   grunt.registerTask('delayed-livereload', 'Live reload after the node server has restarted.', function () {
     var done = this.async();
     setTimeout(function () {

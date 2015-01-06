@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  h1= title
+  div(class="header") #{title}
   each val in dashboards
     div(class="dashboard")
       a(href='#{val.url}') #{val.name}
